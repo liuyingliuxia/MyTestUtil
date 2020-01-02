@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">MyTestUtil</string>
-    <string name="mmm_util_test">我的工具试用参考</string>
+    <string name="mmm_util_test">我的工具参考模板</string>
     <string name="mmm_vp2">ViewPager2</string>
+    <string name="mmm_glide">Glide图片加载</string>
 </resources>
