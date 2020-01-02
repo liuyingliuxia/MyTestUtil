@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <!--    左侧抽屉布局-->
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view_main"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:background="@drawable/side_nav_bar"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/mmm_font_s16"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:scaleType="centerCrop"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginRight="@dimen/mmm_font_s16"
+                        android:src="@drawable/default_avatar_3" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="@dimen/mmm_font_s8"
+                            android:text="@string/mmm_myphone"
+                            android:textColor="@color/color1"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/color1"
+                                android:text="@string/mmm_normal_user" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="20dp"
+                                android:layout_weight="1"
+                                android:textColor="@color/color1"
+                                android:text="@string/mmm_unconfirm" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/color1"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/tvNavPerson"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/user_ic_personal_def"
+                    android:drawablePadding="8dp"
+                    android:layout_margin="30dp"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/color3"
+                    android:text="@string/mmm_personInfor"/>
+
+                <TextView
+                    android:id="@+id/tvNavIdentity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/user_ic_identity_def"
+                    android:drawablePadding="8dp"
+                    android:layout_margin="30dp"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/color3"
+                    android:text="@string/mmm_identity"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:layout_gravity="bottom" >
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tvNavSetting"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/user_ic_set_def"
+                    android:drawablePadding="8dp"
+                    android:layout_margin="30dp"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/color3"
+                    android:text="@string/mmm_setting"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </com.google.android.material.navigation.NavigationView>

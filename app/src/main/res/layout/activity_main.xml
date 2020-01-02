@@ -28,33 +28,53 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvTitle">
 
-    <TextView
-        android:id="@+id/tvVp2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/mmm_vp2"
-        android:padding="10dp"
-        android:layout_marginLeft="20dp"
-        android:background="@color/color10"
-        android:textColor="@drawable/state_selected_c3_c23"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <TextView
+            android:id="@+id/tvVp2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_rowWeight="1"
+            android:background="@color/color10"
+            android:padding="10dp"
+            android:text="@string/mmm_vp2"
+            android:textColor="@drawable/state_selected_c3_c23" />
 
         <TextView
             android:id="@+id/tvGlide"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
+            android:layout_marginLeft="10dp"
             android:background="@color/color10"
             android:padding="10dp"
+            android:layout_rowWeight="1"
             android:text="@string/mmm_glide"
-            android:textColor="@drawable/state_selected_c3_c23"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            android:textColor="@drawable/state_selected_c3_c23" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvBaseQuick"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@color/color10"
+            android:padding="10dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginLeft="@dimen/mmm_font_s10"
+            android:text="@string/mmm_base_quick_adapter"
+            android:lines="1"
+            android:textColor="@drawable/state_selected_c3_c23" />
+
+        <TextView
+            android:id="@+id/tvDrawer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="@dimen/dp_10"
+            android:background="@color/color10"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:text="@string/mmm_drawer"
+            android:textColor="@drawable/state_selected_c3_c23" />
 
     </GridLayout>
 

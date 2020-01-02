@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="mmm_font_s20">20dp</dimen>
+    <dimen name="mmm_font_s10">10dp</dimen>
+    <dimen name="mmm_font_s16">16dp</dimen>
+    <dimen name="mmm_font_s8">8dp</dimen>
+    <dimen name="mmm_font_s2">2dp</dimen>
+    <dimen name="mmm_font_s06">0.6dp</dimen>
+    <dimen name="mmm_font_s03" >0.3dp</dimen>
+    <dimen name="mmm_font_s60">60dp</dimen>
+</resources>

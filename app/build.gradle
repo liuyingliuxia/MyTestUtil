@@ -44,7 +44,14 @@ dependencies {
     //底部导航栏 默认 下滑隐藏 图片和文字间距不可随意修改 不够灵活
     implementation 'com.ashokvarma.android:bottom-navigation-bar:2.1.0'
 
-    /*  implementation 'com.github.CarGuo.LazyRecyclerAdapter:CommonRecycler-Kotlin:v4.0.0'*/
+    //RecyclerView通用适配器
+    implementation 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.30'
+
     //图片加载框架
     implementation 'com.github.bumptech.glide:glide:4.9.0'
+
+    implementation 'com.youth.banner:banner:1.4.10'
+    //抽屉布局用的导航页面
+    implementation 'androidx.navigation:navigation-fragment-ktx:2.1.0'
+    implementation 'androidx.navigation:navigation-ui-ktx:2.1.0'
 }

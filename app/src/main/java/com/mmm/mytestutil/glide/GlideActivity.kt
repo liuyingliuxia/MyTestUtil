@@ -13,7 +13,7 @@ class GlideActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_glide)
-       // Glide.with(this).load("http://f.hiphotos.baidu.com/zhidao/pic/item/8ad4b31c8701a18bcab7e37a9d2f07082838fea3.jpg").into(ivImage1) 获取 url失败
+        Glide.with(this).load("http://f.hiphotos.baidu.com/zhidao/pic/item/8ad4b31c8701a18bcab7e37a9d2f07082838fea3.jpg").into(ivImage1)
         Glide.with(this).load(R.drawable.fruit_10).into(ivImage2)
     }
 
