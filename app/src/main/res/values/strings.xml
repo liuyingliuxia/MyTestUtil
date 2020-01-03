@@ -6,6 +6,7 @@
     <string name="mmm_base_quick_adapter">双表联动</string>
     <string name="mmm_drawer">抽屉布局</string>
     <string name="mmm_nested_recycler">rv嵌套vp再嵌套rv</string>
+    <string name="mmm_rv_in_recycler">rv嵌套rv</string>
 
     <string name="mmm_sort">分类</string>
     <string name="mmm_search">搜索</string>
@@ -13,6 +14,7 @@
     <string name="mmm_myphone">144234341</string>
     <string name="mmm_normal_user">普通用户</string>
     <string name="mmm_unconfirm">未认证</string>
+    <string name="mmm_fruit">水果</string>
 
     <string name="mmm_personInfor">个人资料</string>
     <string name="mmm_identity">身份认证</string>

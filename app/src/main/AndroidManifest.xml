@@ -12,6 +12,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".rvInRecycler.RvInRvActivity"></activity>
         <activity android:name=".drawerLayout.DrawerActivity" />
         <activity android:name=".twoRecycler.TwoRecyclerActivity" />
         <activity android:name=".nestedrecyclerview.NestedRecyclerActivity" />

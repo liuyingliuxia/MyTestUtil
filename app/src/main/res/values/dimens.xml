@@ -8,4 +8,6 @@
     <dimen name="mmm_font_s06">0.6dp</dimen>
     <dimen name="mmm_font_s03" >0.3dp</dimen>
     <dimen name="mmm_font_s60">60dp</dimen>
+    <dimen name="mmm_font_s100">100dp</dimen>
+    <dimen name="mmm_sort_text">12sp</dimen>
 </resources>
