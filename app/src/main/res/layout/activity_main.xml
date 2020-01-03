@@ -80,6 +80,18 @@
             android:text="@string/mmm_drawer"
             android:textColor="@drawable/state_selected_c3_c23" />
 
+        <TextView
+            android:id="@+id/tvNestedRecycler"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="@dimen/dp_10"
+            android:background="@color/color10"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:text="@string/mmm_nested_recycler"
+            android:textColor="@drawable/state_selected_c3_c23" />
+
     </GridLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

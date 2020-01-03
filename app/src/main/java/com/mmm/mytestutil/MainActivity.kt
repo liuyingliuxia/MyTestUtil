@@ -8,6 +8,7 @@ import androidx.annotation.RequiresApi
 import com.githang.statusbar.StatusBarCompat
 import com.mmm.mytestutil.drawerLayout.DrawerActivity
 import com.mmm.mytestutil.glide.GlideActivity
+import com.mmm.mytestutil.nestedrecyclerview.NestedRecyclerActivity
 import com.mmm.mytestutil.twoRecycler.TwoRecyclerActivity
 import com.mmm.mytestutil.vp2.Vp2TestActivity
 import kotlinx.android.synthetic.main.activity_main.*
@@ -25,6 +26,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         tvGlide.setOnClickListener(this)
         tvBaseQuick.setOnClickListener(this)
         tvDrawer.setOnClickListener(this)
+        tvNestedRecycler.setOnClickListener(this)
     }
 
     override fun onClick(v: View?) {
@@ -33,6 +35,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             tvGlide -> myUtil.jumpView(this,GlideActivity())
             tvBaseQuick -> myUtil.jumpView(this , TwoRecyclerActivity())
             tvDrawer -> myUtil.jumpView(this , DrawerActivity())
+            tvNestedRecycler -> myUtil.jumpView(this , NestedRecyclerActivity())
         }
     }
 }

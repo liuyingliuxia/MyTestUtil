@@ -5,6 +5,7 @@
     <string name="mmm_glide">Glide图片加载</string>
     <string name="mmm_base_quick_adapter">双表联动</string>
     <string name="mmm_drawer">抽屉布局</string>
+    <string name="mmm_nested_recycler">rv嵌套vp再嵌套rv</string>
 
     <string name="mmm_sort">分类</string>
     <string name="mmm_search">搜索</string>

@@ -14,6 +14,7 @@
         android:theme="@style/AppTheme.NoActionBar">
         <activity android:name=".drawerLayout.DrawerActivity" />
         <activity android:name=".twoRecycler.TwoRecyclerActivity" />
+        <activity android:name=".nestedrecyclerview.NestedRecyclerActivity" />
         <activity android:name=".glide.GlideActivity" />
         <activity android:name=".vp2.Vp2TestActivity" />
         <activity android:name=".MainActivity">
