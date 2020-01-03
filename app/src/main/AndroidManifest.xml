@@ -12,9 +12,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
-        <activity android:name=".RvRv.MultipleActivity"></activity>
         <activity android:name=".drawerLayout.DrawerActivity" />
-        <activity android:name=".baseQuickAdapter.BaseQuickActivity" />
+        <activity android:name=".twoRecycler.TwoRecyclerActivity" />
         <activity android:name=".glide.GlideActivity" />
         <activity android:name=".vp2.Vp2TestActivity" />
         <activity android:name=".MainActivity">

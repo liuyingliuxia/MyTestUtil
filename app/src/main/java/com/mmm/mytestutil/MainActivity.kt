@@ -6,9 +6,9 @@ import android.os.Bundle
 import android.view.View
 import androidx.annotation.RequiresApi
 import com.githang.statusbar.StatusBarCompat
-import com.mmm.mytestutil.baseQuickAdapter.BaseQuickActivity
 import com.mmm.mytestutil.drawerLayout.DrawerActivity
 import com.mmm.mytestutil.glide.GlideActivity
+import com.mmm.mytestutil.twoRecycler.TwoRecyclerActivity
 import com.mmm.mytestutil.vp2.Vp2TestActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         when(v){
             tvVp2 -> myUtil.jumpView(this,Vp2TestActivity())
             tvGlide -> myUtil.jumpView(this,GlideActivity())
-            tvBaseQuick -> myUtil.jumpView(this , BaseQuickActivity())
+            tvBaseQuick -> myUtil.jumpView(this , TwoRecyclerActivity())
             tvDrawer -> myUtil.jumpView(this , DrawerActivity())
         }
     }
