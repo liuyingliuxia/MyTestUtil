@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color1"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:id="@+id/llTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+        <TextView
+            android:id="@+id/tvSort"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mmm_sort"
+            android:textColor="@color/color3"
+            android:textSize="@dimen/mmm_font_s20"
+            android:padding="@dimen/mmm_font_s10" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="@dimen/mmm_font_s10"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/ivSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_search_black"
+            android:padding="@dimen/mmm_font_s10"
+            android:contentDescription="@string/mmm_search"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintBottom_toBottomOf="@+id/tvSort"/>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/vCutLine"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mmm_font_s06"
+        android:background="@color/color6"
+        app:layout_constraintTop_toBottomOf="@+id/llTop"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvLeft"
+        android:layout_width="86dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vCutLine" />
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/rvRight"
+        android:layout_width="300dp"
+        android:layout_height="700dp"
+        android:orientation="vertical"
+        android:descendantFocusability="beforeDescendants"
+        app:layout_constraintTop_toBottomOf="@+id/llTop"
+        app:layout_constraintRight_toRightOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

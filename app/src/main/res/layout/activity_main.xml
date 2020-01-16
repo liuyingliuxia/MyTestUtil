@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -70,7 +71,6 @@
             android:layout_marginTop="@dimen/dp_10"
             android:background="@color/color10"
             android:padding="10dp"
-            android:layout_gravity="center"
             android:text="@string/mmm_drawer"
             android:textColor="@drawable/state_selected_c3_c23" />
 
@@ -78,12 +78,11 @@
             android:id="@+id/tvNestedRecycler"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
+            android:layout_marginLeft="10dp"
             android:layout_rowWeight="1"
             android:layout_marginTop="@dimen/dp_10"
             android:background="@color/color10"
             android:padding="10dp"
-            android:layout_gravity="center"
             android:text="@string/mmm_nested_recycler"
             android:textColor="@drawable/state_selected_c3_c23" />
 
@@ -94,10 +93,33 @@
             android:layout_marginTop="@dimen/dp_10"
             android:background="@color/color10"
             android:padding="10dp"
-            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/dp_10"
             android:text="@string/mmm_rv_in_recycler"
             android:textColor="@drawable/state_selected_c3_c23" />
 
+        <TextView
+            android:id="@+id/tvLoadMore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_10"
+            android:background="@color/color10"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:text="@string/mmm_load_more"
+            android:layout_marginLeft="@dimen/mmm_font_s10"
+            android:textColor="@drawable/state_selected_c3_c23" />
+
+        <TextView
+            android:id="@+id/tvVp2Nested"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/mmm_font_s10"
+            android:layout_marginTop="@dimen/dp_10"
+            android:background="@color/color10"
+            android:padding="10dp"
+            android:text="@string/mmm_nested_pro"
+            android:textColor="@drawable/state_selected_c3_c23" />
 
     </GridLayout>
 

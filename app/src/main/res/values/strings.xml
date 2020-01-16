@@ -7,6 +7,7 @@
     <string name="mmm_drawer">抽屉布局</string>
     <string name="mmm_nested_recycler">rv嵌套vp再嵌套rv</string>
     <string name="mmm_rv_in_recycler">rv嵌套rv</string>
+    <string name="mmm_load_more">上滑加载更多</string>
 
     <string name="mmm_sort">分类</string>
     <string name="mmm_search">搜索</string>
@@ -30,4 +31,5 @@
     <string name="mmm_reset">重置</string>
     <string name="mmm_ok">完成</string>
     <string name="mmm_discount">折扣</string>
+    <string name="mmm_nested_pro">嵌套Rv的滑动冲突</string>
 </resources>

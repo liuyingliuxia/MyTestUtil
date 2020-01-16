@@ -1,26 +1,16 @@
 package com.mmm.mytestutil.rvInRecycler
 
-import android.animation.AnimatorSet
-import android.animation.ObjectAnimator
 import android.content.Context
-import android.content.res.Resources
-import android.graphics.Paint
 import android.os.Build
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.view.animation.AnimationSet
-import android.view.animation.AnimationUtils
-import android.widget.GridLayout
-import android.widget.Toast
 import androidx.annotation.RequiresApi
-import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.mmm.mytestutil.R
-import com.mmm.mytestutil.myUtil
-import com.mmm.mytestutil.nestedrecyclerview.bean.CategoryBean
+import com.mmm.mytestutil.widgets.myUtil
 import kotlinx.android.synthetic.main.item_sort_right_head.view.*
 import kotlinx.android.synthetic.main.item_sort_right_item.view.*
 
