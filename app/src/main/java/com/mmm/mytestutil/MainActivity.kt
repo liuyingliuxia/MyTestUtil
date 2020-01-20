@@ -46,14 +46,14 @@ class MainActivity : AppCompatActivity() {
             tvRvInRecycler -> myUtil.jumpView(this, RvInRvActivity())
             tvEventBus -> { // 粘性 postSticky 非 post
                 EventBus.getDefault().postSticky(MessageEvent(0, "new mesage 1"))// 粘性发送成功 其他 activity 要用粘性 的
-                EventBus.getDefault().post(MessageEvent(1, "new mesage 2"))
+               // EventBus.getDefault().post(MessageEvent(1, "new mesage 2"))
                   myUtil.jumpView(this, EventBusDemoActivity())
 
             }
         }
     }
 
-    @Subscribe
+    @Subscribe(sticky = true )
     fun onMessageEvent(messageEvent: MessageEvent) {
         tvEventBus!!.text = messageEvent.message
     }

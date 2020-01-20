@@ -10,4 +10,7 @@
     <dimen name="mmm_font_s60">60dp</dimen>
     <dimen name="mmm_font_s100">100dp</dimen>
     <dimen name="mmm_sort_text">12sp</dimen>
+    <dimen name="dp_20">20dp</dimen>
+    <dimen name="dp_6">6dp</dimen>
+    <dimen name="mmm_font_s12">12sp</dimen>
 </resources>

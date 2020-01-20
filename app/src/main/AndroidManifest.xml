@@ -12,7 +12,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
-        <activity android:name=".eventbus.EventBusDemoActivity"></activity>
+        <activity android:name=".popupwindow.PopUpActivity"></activity>
+        <activity android:name=".eventbus.EventBusDemoActivity" />
         <activity android:name=".rv_nested_pro.SortActivity" />
         <activity android:name=".loadMore.LoadMoreActivity" />
         <activity android:name=".rv_rv_nested.RvInRvActivity" />
