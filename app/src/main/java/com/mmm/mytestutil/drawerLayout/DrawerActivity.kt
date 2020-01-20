@@ -10,7 +10,9 @@ import androidx.annotation.RequiresApi
 import com.githang.statusbar.StatusBarCompat
 import com.mmm.mytestutil.R
 import kotlinx.android.synthetic.main.activity_drawer.*
-
+/*
+ * 抽屉布局
+ */
 class DrawerActivity : AppCompatActivity(), View.OnClickListener {
 
     @RequiresApi(Build.VERSION_CODES.M)

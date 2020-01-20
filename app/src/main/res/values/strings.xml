@@ -32,4 +32,12 @@
     <string name="mmm_ok">完成</string>
     <string name="mmm_discount">折扣</string>
     <string name="mmm_nested_pro">嵌套Rv的滑动冲突</string>
+    <string name="mmm_event_bus">EventBus</string>
+    <string name="mmm_receiver">从Main接受的message</string>
+    <string name="mmm_receive2">接受到的第二条消息</string>
+    <string name="mmm_classics_md">经典MD风格布局</string>
+    <string name="mmm_popupwindow">PopupWindow</string>
+    <string name="mmm_play_music">音乐播放</string>
+    <string name="mmm_todo">todo...</string>
+    <string name="mmm_broadcast">广播机制</string>
 </resources>

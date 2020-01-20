@@ -45,7 +45,7 @@ dependencies {
     implementation 'com.ashokvarma.android:bottom-navigation-bar:2.1.0'
 
     //图片加载框架
-    implementation 'com.github.bumptech.glide:glide:4.9.0'
+    implementation 'com.github.bumptech.glide:glide:4.10.0'
 
     implementation 'com.youth.banner:banner:1.4.10'
     //抽屉布局用的导航页面
@@ -54,5 +54,7 @@ dependencies {
     //gson
     implementation 'com.google.code.gson:gson:2.8.6'
     //RecyclerView通用适配器
-    implementation 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.30'
+    implementation 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.46'
+    // 消息总线
+    implementation 'org.greenrobot:eventbus:3.1.1'
 }

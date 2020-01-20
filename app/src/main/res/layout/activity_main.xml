@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/color7"
+    android:background="@color/color1"
     tools:context=".MainActivity">
 
     <TextView
@@ -98,28 +98,59 @@
             android:textColor="@drawable/state_selected_c3_c23" />
 
         <TextView
-            android:id="@+id/tvLoadMore"
+            android:id="@+id/tvEventBus"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/dp_10"
-            android:background="@color/color10"
-            android:padding="10dp"
-            android:layout_gravity="center"
-            android:text="@string/mmm_load_more"
             android:layout_marginLeft="@dimen/mmm_font_s10"
+            android:layout_marginTop="@dimen/dp_10"
+            android:background="@color/color7"
+            android:padding="10dp"
+            android:text="@string/mmm_event_bus"
             android:textColor="@drawable/state_selected_c3_c23" />
 
         <TextView
-            android:id="@+id/tvVp2Nested"
+            android:id="@+id/tvMDStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
             android:layout_marginLeft="@dimen/mmm_font_s10"
             android:layout_marginTop="@dimen/dp_10"
-            android:background="@color/color10"
+            android:background="@color/color7"
             android:padding="10dp"
-            android:text="@string/mmm_nested_pro"
+            android:text="@string/mmm_classics_md"
             android:textColor="@drawable/state_selected_c3_c23" />
+
+        <TextView
+            android:id="@+id/tvPopUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/mmm_font_s10"
+            android:layout_marginTop="@dimen/dp_10"
+            android:background="@color/color7"
+            android:padding="10dp"
+            android:text="@string/mmm_popupwindow"
+            android:textColor="@drawable/state_selected_c3_c23" />
+
+        <TextView
+            android:id="@+id/tvMusicPlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/mmm_font_s10"
+            android:layout_marginTop="@dimen/dp_10"
+            android:background="@color/color7"
+            android:padding="10dp"
+            android:text="@string/mmm_play_music"
+            android:textColor="@drawable/state_selected_c3_c23" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/mmm_font_s10"
+            android:layout_marginTop="@dimen/dp_10"
+            android:background="@color/color7"
+            android:padding="10dp"
+            android:text="@string/mmm_broadcast"
+            android:textColor="@drawable/state_selected_c3_c23" />
+
 
     </GridLayout>
 

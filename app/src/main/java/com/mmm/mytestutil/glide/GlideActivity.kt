@@ -8,7 +8,9 @@ import androidx.appcompat.app.AppCompatActivity
 import com.bumptech.glide.Glide
 import com.mmm.mytestutil.R
 import kotlinx.android.synthetic.main.activity_glide.*
-
+/*
+ * 图片加载框架
+ */
 class GlideActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
