@@ -49,7 +49,7 @@ class ParentRecyclerView @JvmOverloads constructor(context: Context, attrs: Attr
                     totalDy = 0
                     isStartFling = false
                 }
-                //在RecyclerView fling情况下，记录当前RecyclerView在y轴的便宜
+                //在RecyclerView fling情况下，记录当前RecyclerView在y轴的偏移
                 totalDy += dy
             }
         })

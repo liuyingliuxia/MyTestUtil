@@ -12,7 +12,7 @@ import com.mmm.mytestutil.rv_vp_rv_nested.ChildRecyclerView
 import com.mmm.mytestutil.rv_vp_rv_nested.bean.CategoryBean
 
 class SimpleCategoryViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-
+//子的 holder
     private val mTabLayout: TabLayout = itemView.findViewById(R.id.tabs) as TabLayout
     private val mViewPager: ViewPager = itemView.findViewById(R.id.viewPager) as ViewPager
 
