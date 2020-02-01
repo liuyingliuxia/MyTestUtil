@@ -12,11 +12,9 @@
         android:roundIcon="@mipmap/my_util"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
-        <activity android:name=".music_play.MusicActivity"></activity>
+        <activity android:name=".music_play.MusicActivity"/>
         <activity android:name=".popupwindow.PopUpActivity" />
         <activity android:name=".eventbus.EventBusDemoActivity" />
-        <activity android:name=".rv_nested_pro.SortActivity" />
-        <activity android:name=".loadMore.LoadMoreActivity" />
         <activity android:name=".rv_rv_nested.RvInRvActivity" />
         <activity android:name=".drawerLayout.DrawerActivity" />
         <activity android:name=".two_rv_link.TwoRecyclerActivity" />

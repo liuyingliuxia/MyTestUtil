@@ -24,6 +24,6 @@ class Vp2TestActivity : AppCompatActivity() {
         list.add("页面二")
         list.add("页面三")
         list.add("页面四")
-        mViewPager2.setAdapter(ViewPagerAdapter(this, list, mViewPager2))
+        mViewPager2.adapter = ViewPagerAdapter(this, list, mViewPager2)
     }
 }

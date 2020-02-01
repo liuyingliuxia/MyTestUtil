@@ -15,10 +15,9 @@ import com.mmm.mytestutil.R
  * @Description:
  * @Time:
  */
-class ViewPagerAdapter(context: Context?, data: List<String>, viewPager2: ViewPager2) : RecyclerView.Adapter<ViewPagerAdapter.ViewHolder>() {
-    private val mData: List<String>
-    private val mInflater: LayoutInflater
-    private val viewPager2: ViewPager2
+class ViewPagerAdapter(context: Context?, data: List<String>, private val viewPager2: ViewPager2) : RecyclerView.Adapter<ViewPagerAdapter.ViewHolder>() {
+    private val mInflater: LayoutInflater = LayoutInflater.from(context)
+    private val mData = data
     private val colorArray = intArrayOf(android.R.color.black, android.R.color.holo_blue_dark, android.R.color.holo_green_dark, android.R.color.holo_red_dark)
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val view = mInflater.inflate(R.layout.vp2_item_test, parent, false)
@@ -36,18 +35,12 @@ class ViewPagerAdapter(context: Context?, data: List<String>, viewPager2: ViewPa
     }
 
     inner class ViewHolder internal constructor(itemView: View) : RecyclerView.ViewHolder(itemView) {
-        var myTextView: TextView
+        var myTextView: TextView = itemView.findViewById(R.id.tvTitle)
         var relativeLayout: RelativeLayout
 
         init {
-            myTextView = itemView.findViewById(R.id.tvTitle)
             relativeLayout = itemView.findViewById(R.id.container)
         }
     }
 
-    init {
-        mInflater = LayoutInflater.from(context)
-        mData = data
-        this.viewPager2 = viewPager2
-    }
 }

@@ -10,6 +10,7 @@ import com.mmm.mytestutil.drawerLayout.DrawerActivity
 import com.mmm.mytestutil.eventbus.EventBusDemoActivity
 import com.mmm.mytestutil.eventbus.MessageEvent
 import com.mmm.mytestutil.glide.GlideActivity
+import com.mmm.mytestutil.music_play.MusicActivity
 import com.mmm.mytestutil.rv_vp_rv_nested.NestedRecyclerActivity
 import com.mmm.mytestutil.rv_rv_nested.RvInRvActivity
 import com.mmm.mytestutil.two_rv_link.TwoRecyclerActivity
@@ -34,6 +35,7 @@ class MainActivity : AppCompatActivity() {
         tvNestedRecycler.setOnClickListener(click)
         tvRvInRecycler.setOnClickListener(click)
         tvEventBus.setOnClickListener(click)
+        tvMusicPlay.setOnClickListener(click)
     }
 
     private val click = View.OnClickListener {
@@ -50,22 +52,24 @@ class MainActivity : AppCompatActivity() {
                   myUtil.jumpView(this, EventBusDemoActivity())
 
             }
+            tvMusicPlay ->  myUtil.jumpView(this, MusicActivity())
         }
     }
 
+    /** EventBus------------**/
     @Subscribe(sticky = true )
     fun onMessageEvent(messageEvent: MessageEvent) {
         tvEventBus!!.text = messageEvent.message
     }
 
-    override fun onStop() {
-        super.onStop()
-        EventBus.getDefault().unregister(this)
-    }
 
     override fun onStart() {
         super.onStart()
         EventBus.getDefault().register(this)
+    }
+    override fun onStop() {
+        super.onStop()
+        EventBus.getDefault().unregister(this)
     }
 }
 
