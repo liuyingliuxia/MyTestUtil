@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.view.View
 import androidx.annotation.RequiresApi
 import com.githang.statusbar.StatusBarCompat
+import com.mmm.mytestutil.coroutlines_retrofit.RetrofitActivity
 import com.mmm.mytestutil.drawerLayout.DrawerActivity
 import com.mmm.mytestutil.eventbus.EventBusDemoActivity
 import com.mmm.mytestutil.eventbus.MessageEvent
@@ -36,6 +37,7 @@ class MainActivity : AppCompatActivity() {
         tvRvInRecycler.setOnClickListener(click)
         tvEventBus.setOnClickListener(click)
         tvMusicPlay.setOnClickListener(click)
+        tvRetrofit.setOnClickListener (click)
     }
 
     private val click = View.OnClickListener {
@@ -53,6 +55,7 @@ class MainActivity : AppCompatActivity() {
 
             }
             tvMusicPlay ->  myUtil.jumpView(this, MusicActivity())
+            tvRetrofit -> myUtil.jumpView(this ,RetrofitActivity())
         }
     }
 

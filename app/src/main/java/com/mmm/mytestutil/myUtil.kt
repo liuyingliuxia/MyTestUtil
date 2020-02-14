@@ -15,12 +15,6 @@ class myUtil {
             context.startActivity(intent)
         }
 
-        fun jumpView(context: Context , newFragment:Fragment){
-            val intent = Intent()
-            intent.setClass(context!!, newFragment::class.java)
-            context.startActivity(intent)
-        }
-
         fun talk (context: Context, input :String){
             Toast.makeText( context , input , Toast.LENGTH_SHORT).show()
         }

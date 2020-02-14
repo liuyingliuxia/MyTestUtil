@@ -140,6 +140,16 @@
             android:padding="10dp"
             android:text="@string/mmm_broadcast"
             android:textColor="@drawable/state_selected_c3_c23" />
+        <TextView
+            android:id="@+id/tvRetrofit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/mmm_font_s10"
+            android:layout_marginTop="@dimen/dp_10"
+            android:background="@color/color7"
+            android:padding="10dp"
+            android:text="@string/retrofit"
+            android:textColor="@drawable/state_selected_c3_c23" />
 
 
     </GridLayout>

@@ -40,4 +40,5 @@
     <string name="mmm_play_music">音乐播放</string>
     <string name="mmm_todo">todo...</string>
     <string name="mmm_broadcast">广播机制</string>
+    <string name="retrofit">retrofit网络请求</string>
 </resources>
