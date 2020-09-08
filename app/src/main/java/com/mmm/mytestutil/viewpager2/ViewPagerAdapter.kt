@@ -36,11 +36,8 @@ class ViewPagerAdapter(context: Context?, data: List<String>, private val viewPa
 
     inner class ViewHolder internal constructor(itemView: View) : RecyclerView.ViewHolder(itemView) {
         var myTextView: TextView = itemView.findViewById(R.id.tvTitle)
-        var relativeLayout: RelativeLayout
+        var relativeLayout: RelativeLayout = itemView.findViewById(R.id.container)
 
-        init {
-            relativeLayout = itemView.findViewById(R.id.container)
-        }
     }
 
 }

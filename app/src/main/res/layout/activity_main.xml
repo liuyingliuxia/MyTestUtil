@@ -129,6 +129,7 @@
             android:background="@color/color7"
             android:padding="10dp"
             android:text="@string/mmm_play_music"
+            android:visibility="gone"
             android:textColor="@drawable/state_selected_c3_c23" />
 
         <TextView
@@ -151,6 +152,66 @@
             android:text="@string/retrofit"
             android:textColor="@drawable/state_selected_c3_c23" />
 
+        <TextView
+            android:id="@+id/tvWeb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_marginLeft="@dimen/mmm_font_s10"
+            android:layout_marginTop="@dimen/dp_10"
+            android:background="@color/color7"
+            android:padding="10dp"
+            android:textColor="@drawable/state_selected_c3_c23"
+            android:text="@string/mmm_web_view" />
+
+        <TextView
+            android:id="@+id/tvSendQuest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_marginLeft="@dimen/mmm_font_s10"
+            android:layout_marginTop="@dimen/dp_10"
+            android:background="@color/color7"
+            android:padding="10dp"
+            android:textColor="@drawable/state_selected_c3_c23"
+            android:text="@string/mmm_web_view" />
+
+
+        <TextView
+            android:id="@+id/tvLifeCycle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_marginLeft="@dimen/mmm_font_s10"
+            android:layout_marginTop="@dimen/dp_10"
+            android:background="@color/color7"
+            android:padding="10dp"
+            android:textColor="@drawable/state_selected_c3_c23"
+            android:text="@string/life_cycle" />
+
+        <TextView
+            android:id="@+id/tvOkhttp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_marginLeft="@dimen/mmm_font_s10"
+            android:layout_marginTop="@dimen/dp_10"
+            android:background="@color/color7"
+            android:padding="10dp"
+            android:textColor="@drawable/state_selected_c3_c23"
+            android:text="@string/okHttp" />
+
+        <TextView
+            android:id="@+id/tvAlgorithm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_marginLeft="@dimen/mmm_font_s10"
+            android:layout_marginTop="@dimen/dp_10"
+            android:background="@color/color7"
+            android:padding="10dp"
+            android:textColor="@drawable/state_selected_c3_c23"
+            android:text="@string/algorithm" />
 
     </GridLayout>
 

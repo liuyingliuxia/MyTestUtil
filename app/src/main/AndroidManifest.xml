@@ -13,7 +13,12 @@
         android:roundIcon="@mipmap/my_util"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
-        <activity android:name=".coroutlines_retrofit.demo.DemoApiActivity"></activity>
+        <activity android:name=".algorithm.AlgorithmActivity" />
+        <activity android:name=".okhttp.OkHttpActivity" />
+        <activity android:name=".lifecycle.LifeCycleActivity" />
+        <activity android:name=".webview.JWebActivity" />
+        <activity android:name=".webview.WebURLActivity" />
+        <activity android:name=".webview.WebActivity" /> <!-- <activity android:name=".coroutlines_retrofit.demo.DemoApiActivity"></activity> -->
         <activity android:name=".coroutlines_retrofit.RetrofitActivity" />
         <activity android:name=".music_play.MusicActivity" />
         <activity android:name=".popupwindow.PopUpActivity" />
@@ -23,7 +28,9 @@
         <activity android:name=".two_rv_link.TwoRecyclerActivity" />
         <activity android:name=".rv_vp_rv_nested.NestedRecyclerActivity" />
         <activity android:name=".glide.GlideActivity" />
-        <activity android:name=".viewpager2.Vp2TestActivity" />
+        <activity
+            android:name=".viewpager2.Vp2TestActivity"
+            android:theme="@style/MyToolsAddAvatar" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -6,17 +6,24 @@ import android.os.Bundle
 import android.view.View
 import androidx.annotation.RequiresApi
 import com.githang.statusbar.StatusBarCompat
+import com.mmm.mytestutil.algorithm.AlgorithmActivity
 import com.mmm.mytestutil.coroutlines_retrofit.RetrofitActivity
 import com.mmm.mytestutil.drawerLayout.DrawerActivity
 import com.mmm.mytestutil.eventbus.EventBusDemoActivity
 import com.mmm.mytestutil.eventbus.MessageEvent
 import com.mmm.mytestutil.glide.GlideActivity
+import com.mmm.mytestutil.lifecycle.LifeCycleActivity
 import com.mmm.mytestutil.music_play.MusicActivity
+import com.mmm.mytestutil.okhttp.OkHttpActivity
 import com.mmm.mytestutil.rv_vp_rv_nested.NestedRecyclerActivity
 import com.mmm.mytestutil.rv_rv_nested.RvInRvActivity
 import com.mmm.mytestutil.two_rv_link.TwoRecyclerActivity
 import com.mmm.mytestutil.viewpager2.Vp2TestActivity
+import com.mmm.mytestutil.webview.JWebActivity
+import com.mmm.mytestutil.webview.WebActivity
+import com.mmm.mytestutil.webview.WebURLActivity
 import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.drawer_top.*
 import org.greenrobot.eventbus.EventBus
 import org.greenrobot.eventbus.Subscribe
 
@@ -38,6 +45,11 @@ class MainActivity : AppCompatActivity() {
         tvEventBus.setOnClickListener(click)
         tvMusicPlay.setOnClickListener(click)
         tvRetrofit.setOnClickListener (click)
+        tvWeb.setOnClickListener(click)
+        tvSendQuest.setOnClickListener(click)
+        tvLifeCycle.setOnClickListener(click)
+        tvOkhttp.setOnClickListener(click)
+        tvAlgorithm.setOnClickListener(click)
     }
 
     private val click = View.OnClickListener {
@@ -56,6 +68,11 @@ class MainActivity : AppCompatActivity() {
             }
             tvMusicPlay ->  myUtil.jumpView(this, MusicActivity())
             tvRetrofit -> myUtil.jumpView(this ,RetrofitActivity())
+            tvWeb -> myUtil.jumpView(this,WebActivity())
+            tvSendQuest -> myUtil.jumpView(this , JWebActivity())
+            tvLifeCycle -> myUtil.jumpView(this , LifeCycleActivity())
+            tvOkhttp -> myUtil.jumpView(this , OkHttpActivity())
+            tvAlgorithm ->myUtil.jumpView(this , AlgorithmActivity())
         }
     }
 
