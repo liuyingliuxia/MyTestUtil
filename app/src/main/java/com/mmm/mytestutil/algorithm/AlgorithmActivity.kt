@@ -12,11 +12,13 @@ class AlgorithmActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_algorithm)
         tvBubble.setOnClickListener(click)
+        tvChoose.setOnClickListener(click)
     }
 
     private val click = View.OnClickListener {
         when(it){
             tvBubble -> gifBubble.isVisible = true
+            tvChoose -> gifBubble
         }
     }
 }
