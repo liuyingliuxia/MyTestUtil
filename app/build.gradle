@@ -4,6 +4,8 @@ apply plugin: 'kotlin-android'
 
 apply plugin: 'kotlin-android-extensions'
 
+//apply plugin: 'com.jakewharton.butterknife'
+
 android {
     compileSdkVersion 29
     buildToolsVersion "29.0.2"
@@ -88,4 +90,7 @@ dependencies {
     implementation "io.reactivex.rxjava2:rxandroid:2.1.1"
     //gif
     implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.19'
+    //黄油刀 注释
+    //implementation 'com.jakewharton:butterknife-gradle-plugin:10.2.3'
+   // annotationProcessor 'com.jakewharton:butterknife-compiler:10.2.3'
 }

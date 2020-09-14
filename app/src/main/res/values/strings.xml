@@ -160,4 +160,7 @@
     <string name="counting">计数排序</string>
     <string name="bucket">桶排序</string>
     <string name="radix">基数排序</string>
+    <string name="input">请输入排序个数：</string>
+    <string name="create_num">随机生成未排序的数：</string>
+    <string name="sort_result">排序结果：</string>
 </resources>

@@ -1,5 +1,6 @@
 package com.mmm.mytestutil
 
+import android.content.Intent
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -72,7 +73,11 @@ class MainActivity : AppCompatActivity() {
             tvSendQuest -> myUtil.jumpView(this , JWebActivity())
             tvLifeCycle -> myUtil.jumpView(this , LifeCycleActivity())
             tvOkhttp -> myUtil.jumpView(this , OkHttpActivity())
-            tvAlgorithm ->myUtil.jumpView(this , AlgorithmActivity())
+            tvAlgorithm -> {
+                val intent = Intent("android.intent.action.ANSWER")
+                startActivity(intent)
+            }
+            // myUtil.jumpView(this , AlgorithmActivity())
         }
     }
 

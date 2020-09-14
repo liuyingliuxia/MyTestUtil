@@ -18,4 +18,6 @@
     <dimen name="fragment_horizontal_margin">16dp</dimen>
     <dimen name="fragment_vertical_margin">16dp</dimen>
     <dimen name="dp_12">12dp</dimen>
+    <dimen name="dp_100">100dp</dimen>
+    <dimen name="dp_80">80dp</dimen>
 </resources>
